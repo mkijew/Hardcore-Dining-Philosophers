@@ -6,4 +6,5 @@ project(HardcoreDP)
 
 add_executable(HardcoreDP src/HardcoreDP.cpp)
 target_link_libraries(HardcoreDP pthread)
+target_include_directories(HardcoreDP PRIVATE inc/)
 target_compile_options(HardcoreDP PRIVATE -Wall -Werror -Wpedantic -Wextra)
