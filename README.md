@@ -23,3 +23,5 @@ It asks CWaiter if can eat at specified (current) time.
 *CoutputConsole* - class reponsible for display log on second console.
 
 *CBook* - class with philosophers considerations.
+
+*Consideration* - structure with philosopher consideration.
